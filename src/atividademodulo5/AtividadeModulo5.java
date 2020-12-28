@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package atividademodulo5;
 
 /**
  *
- * @author Victor-Vanessa
+ * @author Victor
  */
 public class AtividadeModulo5 {
 
@@ -15,7 +10,15 @@ public class AtividadeModulo5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int numeroInt = 48;
+        Double numeroIntParaDouble = (double)numeroInt;
+        System.out.println("Número inteiro: "+numeroInt+"\nNúmero double: " + numeroIntParaDouble);
+        char letra  = 'a';
+        String letraCharParaString = String.valueOf(letra);
+        System.out.println("String do char: " + letraCharParaString);
+        float numeroFloat = 4678.182838383f;
+        Integer numeroFloatParaInteger = (int)numeroFloat;
+        System.out.println("Número float: " + numeroFloat + "\nNúmero Inteiro: " + numeroFloatParaInteger);
     }
     
 }
